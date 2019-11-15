@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8f5b8700.chunk.css",
+    "main.js": "/static/js/main.2642a23b.chunk.js",
+    "main.js.map": "/static/js/main.2642a23b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.675ccbc6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.675ccbc6.js.map",
+    "static/js/2.f2adac24.chunk.js": "/static/js/2.f2adac24.chunk.js",
+    "static/js/2.f2adac24.chunk.js.map": "/static/js/2.f2adac24.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.134f0834fa72516348d26973e8f7c561.js": "/precache-manifest.134f0834fa72516348d26973e8f7c561.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8f5b8700.chunk.css.map": "/static/css/main.8f5b8700.chunk.css.map",
+    "static/media/athens.jpg": "/static/media/athens.e825b677.jpg",
+    "static/media/bali.jpg": "/static/media/bali.903e5c37.jpg",
+    "static/media/berlin.jpg": "/static/media/berlin.b2bc220c.jpg",
+    "static/media/bulgaria.jpg": "/static/media/bulgaria.399dbc73.jpg",
+    "static/media/cheap_house.jpg": "/static/media/cheap_house.d6718008.jpg",
+    "static/media/egypt.jpg": "/static/media/egypt.e55ffc9c.jpg",
+    "static/media/hotel.jpg": "/static/media/hotel.d4dce692.jpg",
+    "static/media/london.jpg": "/static/media/london.a6735f5c.jpg",
+    "static/media/male.jpg": "/static/media/male.0351addb.jpg",
+    "static/media/nyc.jpeg": "/static/media/nyc.258f1f23.jpeg",
+    "static/media/peacock.png": "/static/media/peacock.bcd2f42c.png",
+    "static/media/plane.jpg": "/static/media/plane.449f9ce1.jpg",
+    "static/media/rent.jpeg": "/static/media/rent.a931b286.jpeg",
+    "static/media/rome.jpg": "/static/media/rome.5d09b9e2.jpg",
+    "static/media/suitcase.jpg": "/static/media/suitcase.cb24720d.jpg",
+    "static/media/versailles.jpg": "/static/media/versailles.2d330688.jpg",
+    "static/media/viktoria.png": "/static/media/viktoria.8695e308.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.675ccbc6.js",
+    "static/js/2.f2adac24.chunk.js",
+    "static/css/main.8f5b8700.chunk.css",
+    "static/js/main.2642a23b.chunk.js"
+  ]
+}

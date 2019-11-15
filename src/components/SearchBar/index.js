@@ -7,24 +7,26 @@ const SearchBar = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.content}>
-      <div className={classes.searchBarWrapper}>
-        <TextField
-          placeholder="Search"
-          color="secondary"
-          className={classes.textField}
-          InputLabelProps={{
-            className: classes.inputLabel
-          }}
-          InputProps={{
-            className: classes.input
-          }}
-          style={{
-            borderLeft: '2xp solid #BA1D55'
-          }}
-        />
-      </div>
-    </div >
+    <div className="searchbar">
+      <div className={classes.content}>
+        <div className={classes.searchBarWrapper}>
+          <TextField
+            placeholder="Search"
+            color="secondary"
+            className={classes.textField}
+            InputLabelProps={{
+              className: classes.inputLabel
+            }}
+            InputProps={{
+              className: classes.input
+            }}
+            style={{
+              borderLeft: '2xp solid #BA1D55'
+            }}
+          />
+        </div>
+      </div >
+    </div>
   )
 }
 

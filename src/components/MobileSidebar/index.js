@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Grid from '@material-ui/core/Grid'
 import IconButton from '@material-ui/core/IconButton'
 import HomeIcon from '@material-ui/icons/Home'
@@ -8,8 +8,8 @@ import QuestionAnswerIcon from '@material-ui/icons/QuestionAnswer'
 import BubbleChartIcon from '@material-ui/icons/BubbleChart'
 import useStyles from './styles'
 
-const LeftSidebar = (props) => {
-  const classes = useStyles()
+const MobileSidebar = () => {
+  const classes = useStyles();
   const [active, setActive] = React.useState(0)
 
   const icons = [
@@ -19,7 +19,7 @@ const LeftSidebar = (props) => {
           className={active === 0 ? classes.activeColor : null}
           onClick={() => setActive(0)}
         >
-          <HomeIcon fontSize="large" />
+          <HomeIcon fontSize="medium" />
         </IconButton>
       </Grid>
     ),
@@ -29,7 +29,7 @@ const LeftSidebar = (props) => {
           className={active === 1 ? classes.activeColor : null}
           onClick={() => setActive(1)}
         >
-          <LocationOnIcon fontSize="large" />
+          <LocationOnIcon fontSize="medium" />
         </IconButton>
       </Grid>
     ),
@@ -39,7 +39,7 @@ const LeftSidebar = (props) => {
           className={active === 2 ? classes.activeColor : null}
           onClick={() => setActive(2)}
         >
-          <ExploreIcon fontSize="large" />
+          <ExploreIcon fontSize="medium" />
         </IconButton>
       </Grid>
     ),
@@ -49,26 +49,27 @@ const LeftSidebar = (props) => {
           className={active === 3 ? classes.activeColor : null}
           onClick={() => setActive(3)}
         >
-          <QuestionAnswerIcon fontSize="large" />
+          <QuestionAnswerIcon fontSize="medium" />
         </IconButton>
       </Grid>
     )
   ]
-
   return (
-    <div className={classes.sidebar}>
-      <Grid container direction="column" alignItems="center" className={classes.iconContainer}>
-        <Grid item xs={1}>
-          <IconButton>
-            <BubbleChartIcon fontSize="large" color="primary" />
-          </IconButton>
+    <div className={classes.root}>
+      <div className={classes.sidebar}>
+        <Grid container direction="column" alignItems="center" className={classes.iconContainer}>
+          <Grid item xs={1}>
+            <IconButton>
+              <BubbleChartIcon fontSize="medium" color="primary" />
+            </IconButton>
+          </Grid>
+          <Grid item xs={3}></Grid>
+          {icons}
+          <Grid item xs={4}></Grid>
         </Grid>
-        <Grid item xs={3}></Grid>
-        {icons}
-        <Grid item xs={4}></Grid>
-      </Grid>
+      </div>
     </div>
   )
 }
 
-export default LeftSidebar;
+export default MobileSidebar

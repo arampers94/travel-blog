@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@media(max-width: 959px) {
+  .blog {
+    margin: 0 25px;
+  }
+  
+  .searchbar {
+    margin-left: 25px;
+  }
+}

@@ -23,7 +23,7 @@ const Blog = () => {
   };
 
   return (
-    <Grid container direction="row">
+    <Grid container direction="row" className="blog">
       <Grid item className={classes.gridItem}>
         <Typography variant="h3" className={classes.text}>
           Blog
@@ -36,6 +36,8 @@ const Blog = () => {
           aria-label="tabs"
           indicatorColor="secondary"
           className={classes.tabs}
+          scrollButtons="auto"
+          variant="scrollable"
         >
           <Tab disableRipple label="Top" />
           <Tab disableRipple label="Low cost" />
